@@ -1,0 +1,222 @@
+{
+  "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Resources/deployments/nakul13-bot_csharp_qnav4_sdk_360",
+  "name": "nakul13-bot_csharp_qnav4_sdk_360",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourcegroups/nakul13/providers/Microsoft.BotService/botServices/nakul13-bot",
+    "marketplaceItemId": "Microsoft.BotServiceSdkGalleryPackage"
+  },
+  "properties": {
+    "templateHash": "18013263124994149759",
+    "parameters": {
+      "botEnv": {
+        "type": "String",
+        "value": "prod"
+      },
+      "botId": {
+        "type": "String",
+        "value": "nakul13-bot"
+      },
+      "location": {
+        "type": "String",
+        "value": "West US 2"
+      },
+      "sku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "kind": {
+        "type": "String",
+        "value": "sdk"
+      },
+      "siteName": {
+        "type": "String",
+        "value": "nakul13-bot-9593"
+      },
+      "createNewStorage": {
+        "type": "Bool",
+        "value": true
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "nakul13bot9593"
+      },
+      "storageAccountLocation": {
+        "type": "String",
+        "value": ""
+      },
+      "storageAccountResourceId": {
+        "type": "String",
+        "value": ""
+      },
+      "appId": {
+        "type": "String",
+        "value": "51e09729-6bce-4fb3-9eb3-873e36c61f00"
+      },
+      "appSecret": {
+        "type": "String",
+        "value": "R53(^8XGGBflgQO!H#CM5BDT"
+      },
+      "azureWebJobsBotFrameworkDirectLineSecret": {
+        "type": "String",
+        "value": ""
+      },
+      "zipUrl": {
+        "type": "String",
+        "value": "https://bot-framework.azureedge.net/static/278030-129d93a2d0/bot-packages/v1.3.27-276817/csharp-abs-webapp-v4_qnabot_precompiled.zip"
+      },
+      "proactiveZipUrl": {
+        "type": "String",
+        "value": ""
+      },
+      "useAppInsights": {
+        "type": "Bool",
+        "value": true
+      },
+      "appInsightsLocation": {
+        "type": "String",
+        "value": "West US 2"
+      },
+      "serverFarmId": {
+        "type": "String",
+        "value": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Web/serverfarms/nakul13"
+      },
+      "createServerFarm": {
+        "type": "Bool",
+        "value": false
+      },
+      "serverFarmLocation": {
+        "type": "String",
+        "value": "West US 2"
+      },
+      "serverFarmSku": {
+        "type": "Object",
+        "value": {
+          "name": "S1",
+          "tier": "Standard",
+          "size": "S1",
+          "family": "S",
+          "capacity": 1
+        }
+      },
+      "endpoint": {
+        "type": "String",
+        "value": ""
+      },
+      "luisApiLocation": {
+        "type": "String",
+        "value": "Global"
+      },
+      "botQueueName": {
+        "type": "String",
+        "value": "bot-queue"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-12-08T05:21:09.8324967Z",
+    "duration": "PT59.8895578S",
+    "correlationId": "8ca2ed21-c86e-4f2d-95ed-92123c6298b8",
+    "providers": [
+      {
+        "namespace": "microsoft.insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "westus2"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "westus2"
+            ]
+          },
+          {
+            "resourceType": "sites/Extensions",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.BotService",
+        "resourceTypes": [
+          {
+            "resourceType": "botServices",
+            "locations": [
+              "global"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Web/sites/nakul13-bot-9593",
+            "resourceType": "Microsoft.Web/sites",
+            "resourceName": "nakul13-bot-9593"
+          }
+        ],
+        "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Web/sites/nakul13-bot-9593/Extensions/MSDeploy",
+        "resourceType": "Microsoft.Web/sites/Extensions",
+        "resourceName": "nakul13-bot-9593/MSDeploy"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Web/sites/nakul13-bot-9593",
+            "resourceType": "Microsoft.Web/sites",
+            "resourceName": "nakul13-bot-9593"
+          },
+          {
+            "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Web/sites/nakul13-bot-9593/Extensions/MSDeploy",
+            "resourceType": "Microsoft.Web/sites/Extensions",
+            "resourceName": "nakul13-bot-9593/MSDeploy"
+          },
+          {
+            "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/microsoft.insights/components/nakul13-botolxqbn",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "nakul13-botolxqbn"
+          },
+          {
+            "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/microsoft.insights/components/nakul13-botolxqbn",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "nakul13-botolxqbn",
+            "apiVersion": "2015-05-01"
+          }
+        ],
+        "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.BotService/botServices/nakul13-bot",
+        "resourceType": "Microsoft.BotService/botServices",
+        "resourceName": "nakul13-bot"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.BotService/botServices/nakul13-bot"
+      },
+      {
+        "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/microsoft.insights/components/nakul13-botolxqbn"
+      },
+      {
+        "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Web/sites/nakul13-bot-9593"
+      },
+      {
+        "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Web/sites/nakul13-bot-9593/Extensions/MSDeploy"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

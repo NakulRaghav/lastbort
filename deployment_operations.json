@@ -1,0 +1,74 @@
+[
+  {
+    "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Resources/deployments/nakul13-bot_csharp_qnav4_sdk_360/operations/699AEFD19992A2AA",
+    "operationId": "699AEFD19992A2AA",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-08T05:21:04.4625861Z",
+      "duration": "PT52.1484515S",
+      "trackingId": "fa9c3bf0-feb6-408d-86e0-2ac6985ef556",
+      "serviceRequestId": "04d166a6-f292-46ff-8e5e-83c4791212d4",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Web/sites/nakul13-bot-9593/Extensions/MSDeploy",
+        "resourceType": "Microsoft.Web/sites/Extensions",
+        "resourceName": "nakul13-bot-9593/MSDeploy"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Resources/deployments/nakul13-bot_csharp_qnav4_sdk_360/operations/7CB45E9CAE00E2FF",
+    "operationId": "7CB45E9CAE00E2FF",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-08T05:20:39.0224041Z",
+      "duration": "PT26.7082695S",
+      "trackingId": "114a1c61-52ff-49ce-8911-640a1bda1988",
+      "serviceRequestId": "230cbc46-9527-4278-a95e-cace8b3d76b3",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Web/sites/nakul13-bot-9593",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "nakul13-bot-9593"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Resources/deployments/nakul13-bot_csharp_qnav4_sdk_360/operations/EDD90A02D16C3B71",
+    "operationId": "EDD90A02D16C3B71",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-08T05:20:26.4060909Z",
+      "duration": "PT14.0919563S",
+      "trackingId": "c0bdb09f-defc-4258-a35b-b6e36cb21ba1",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/microsoft.insights/components/nakul13-botolxqbn",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "nakul13-botolxqbn",
+        "apiVersion": "2015-05-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/Microsoft.Resources/deployments/nakul13-bot_csharp_qnav4_sdk_360/operations/6A82393CDD5C419F",
+    "operationId": "6A82393CDD5C419F",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-08T05:20:26.0806395Z",
+      "duration": "PT13.7665049S",
+      "trackingId": "8a484345-f368-4a2b-a6cf-cc60d16c5ca2",
+      "serviceRequestId": "92be7f22-048a-46fc-bcb1-1d90ad360f60",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/92c37f34-c1bb-479f-a891-30e9cff74319/resourceGroups/nakul13/providers/microsoft.insights/components/nakul13-botolxqbn",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "nakul13-botolxqbn"
+      }
+    }
+  }
+]
